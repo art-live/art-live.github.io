@@ -9,7 +9,8 @@
 	}
 
 	body{
-		background-color: rgb(231, 231, 231)
+		background-color: rgb(231, 231, 231);
+		
 	}
 
 	*{
@@ -99,14 +100,12 @@ a {
 
 
 
-.wrapper{
-	display: flex;
-	justify-content:center;
 
-}
 
 .wrapper_2{
 
+height: 100vh;
+overflow: hidden;
 
 }
 
@@ -194,7 +193,9 @@ a {
 .info_block{
 	width: 100%;
 	height: auto;
-	background:rgb(231, 231, 231);
+	background:url(https://img1.goodfon.ru/original/1920x1200/f/ef/tekstura-doski-derevo.jpg);
+	background-size:cover;
+
 
 }
 
@@ -305,9 +306,9 @@ a {
 
 .beografy{
 	width: 100%;
-	height: 500px;
+	height: 100vh;
 	font-size: 14px;
-	background-color: rgb(231, 231, 231);
+	background:#faebd7;
 }
 
 .beografy_photo{
@@ -328,7 +329,12 @@ a {
 
 .my_info{
 	width: 350px;
+	width: 500px;
+	font-size: 22px;
+	margin: auto;
 }
+
+
 
 .my_skill{
 	width: 350px;
@@ -502,7 +508,7 @@ display: inline-block;
 
 .footer{
 	background-color: #3c454d;
-	height: 500px;
+	min-height: 800px;
 	color: white;
 
 }
@@ -546,4 +552,21 @@ color: #3c454d;
 .hr_style{
 	width: 400px;
 	margin:20px auto;
+}
+
+.obomne{
+	padding-top: 120px;
+}
+
+
+
+.aloeba{
+	width: 300px;
+	height: 300px;
+}
+
+.aloblin{
+	display: none;
+	color: white;
+	text-align: center;
 }
