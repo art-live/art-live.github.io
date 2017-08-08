@@ -66,6 +66,7 @@ a {
 	position: absolute;
 	top: 20%;
 	left: 50%;
+	font-size: 20px;
 	background: rgba(255, 255, 255, 0.09);
 	min-height: 400px;
 	width: 300px;
@@ -78,6 +79,7 @@ a {
 
 	color: rgb(255, 255, 255);
 	position: absolute;
+	font-size: 50px;
 	top: 20%;
 	left: 50%;
 	background: rgba(155, 159, 162, 0.66);
@@ -569,4 +571,9 @@ color: #3c454d;
 	display: none;
 	color: white;
 	text-align: center;
+}
+
+.fotorama fotorama1502185071903{
+	justify-content: center;
+	display: flex;
 }
