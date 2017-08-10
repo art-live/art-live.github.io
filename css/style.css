@@ -510,7 +510,6 @@ display: inline-block;
 
 .footer{
 	background-color: #3c454d;
-	min-height: 800px;
 	color: white;
 
 }
@@ -557,7 +556,7 @@ color: #3c454d;
 }
 
 .obomne{
-	padding-top: 120px;
+	
 }
 
 
@@ -573,7 +572,3 @@ color: #3c454d;
 	text-align: center;
 }
 
-.fotorama fotorama1502185071903{
-	justify-content: center;
-	display: flex;
-}
