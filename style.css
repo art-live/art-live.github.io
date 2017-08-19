@@ -91,3 +91,8 @@ img {
     width: 70px;
     height: 70px;
   }
+
+  figure{
+    top: 50%;
+    transform: translateY(-50%);
+  }
