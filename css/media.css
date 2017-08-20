@@ -54,6 +54,53 @@
 		margin:auto;
 	}
 
+	.head{
+		background-size: cover;
+	}
+	.buton_galery{
+	    border: 1px solid black;
+	
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+	.buton_galery_hide{
+	    border: 1px solid black;
+	
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+    float: right;
+}
+
+.menu_nav{
+	height: 70px;
+}
+
+.logotype{
+
+}
+
+.span_nav{
+	line-height: 70px;
+	font-size: 30px;
+}
+
+.logotype{
+	line-height: 70px;
+}
 
 	.profile{
 		font-size: 50px;
@@ -127,6 +174,10 @@
 	font-size: 40px;
 	margin: auto;
 }
+
+	.head{
+		background-size: cover;
+	}
 
 
 
@@ -207,4 +258,53 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 .galery_name{
 	font-size: 50px;
+}
+
+
+	.head{
+		background-size: cover;
+	}
+	.buton_galery{
+	    border: 1px solid black;
+	
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+	.buton_galery_hide{
+	    border: 1px solid black;
+	
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+    float: right;
+}
+
+.menu_nav{
+	height: 70px;
+}
+
+.logotype{
+	
+}
+
+.span_nav{
+	line-height: 70px;
+	font-size: 30px;
+}
+
+.logotype{
+	line-height: 70px;
 }
