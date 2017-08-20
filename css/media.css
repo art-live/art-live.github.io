@@ -1,0 +1,206 @@
+@media screen and (max-width: 992px){
+
+	.beografy_photo{
+	width: 100%;
+	height: 500px;
+}
+
+.my_info{
+	width: 350px;
+	text-align: center;
+	width: 550px;
+	font-size: 40px;
+	margin: auto;
+}
+
+
+
+.papados{
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+
+
+.aloblin{
+	display: block;
+	font-size: 50px;
+}
+
+
+
+
+	.rabota{
+		width: 70%;
+		margin:auto;
+		 margin-top: 10px;
+	}
+
+		.rabota_2{
+		width: 70%;
+		margin:auto;
+		 margin-top: 10px;
+	}
+
+		.rabota_3{
+		width: 70%;
+		margin:auto;
+		 margin-top: 10px;
+	}
+
+				.rabota_4{
+		width: 70%;
+		margin:auto;
+	}
+
+
+	.profile{
+		font-size: 50px;
+		width: 600px;
+		height: 800px;
+	}
+
+	.text_darov{
+		font-size: 25px;
+	}
+
+	.social_icon{
+		width: 80px;
+		height: 80px;
+	}
+
+	.my_name{
+		font-size: 50px;
+	}
+
+	.avatar_profile{
+		width: 350px;
+		height: 350px;
+	}
+
+	.beografy{
+
+		font-size: 25px;
+			}
+
+			.footer{
+				font-size: 20px;
+			}
+
+
+			.rabota_4{
+				height: auto;
+				 margin-top: 10px;
+			}
+
+			
+}
+
+.profile_2{
+	width: 400px;
+	min-height: 550px;
+}
+
+.slider_gg{
+	height: 80%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+
+		.beografy_photo{
+	width: 100%;
+	height: 500px;
+}
+
+.my_info{
+	width: 350px;
+	text-align: center;
+	width: 550px;
+	font-size: 40px;
+	margin: auto;
+}
+
+
+
+.papados{
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+
+.aloblin{
+	display: block;
+	font-size: 50px;
+}
+
+.slider_gg{
+	height: 80%;
+}
+
+
+		.rabota{
+		width: 70%;
+		margin:auto;
+	}
+
+		.rabota_2{
+		width: 70%;
+		margin:auto;
+		height:
+	}
+
+		.rabota_3{
+		width: 70%;
+		margin:auto;
+	}
+
+
+			.rabota_4{
+				height: auto;
+				 margin-top: 10px;
+			}
+
+
+
+
+.profile_2{
+		font-size: 25px;
+	}
+
+	.my_name{
+		font-size: 35px;
+	}
+
+	.avatar_profile{
+		width: 200px;
+		height: 200px;
+	}
+
+	.galery_nazvanie{
+		width: 500px;
+		font-family: 'Russo One', sans-serif;
+		color: #00BFFF;
+	}
+
+
+
+
+
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .icon {
+    background-image: url(https://psv4.userapi.com/c610129/u142452627/docs/87992246718f/iPhone_Retina.jpg?extra=3j7a28DzyrEx0rG818V9iXwLWnNVaLEBfuzv7HOvEs2TykhWtlNKEsMgVuChm7N3rBFmggIBNha9zH76kVATbMiMnfpZKoCOaQLmw6wQEUiiXT4v032bviSdng);
+  }
+}
+.galery_name{
+	font-size: 50px;
+}
