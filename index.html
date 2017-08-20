@@ -1,16 +1,16 @@
 <!DOCTYPE html>
  <html>
  <head>
+ <script type="text/javascript">
+if (top.location.search=="") {
+pass = prompt('Введти ваш Пароль');
+if(pass=='zdarova_godlike')
+{alert('Доступ Разрешён')} else {alert('Э АЛО КУДА ПРЁШ?'), top.location.href="erorpass.htm" }
+}
+</script>
  <title>Художник Петросов Геворг галерея купить картины</title>
 <link rel="shortcut icon" href="artist.png" type="image/x-icon">
 <meta http-equiv="Content-Type" content="text/html; UTF-8" />
-<script type="text/javascript">
-if (top.location.search=="") {
-pass = prompt('Введти ваш Пароль');
-if(pass=='godlike')
-{alert('Доступ Разрешён')} else {alert('Пароль НеВерный'), top.location.href="erorpass.htm" }
-}
-</script>
 <style>
   @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab');
   @import url('https://fonts.googleapis.com/css?family=Russo+One');
@@ -20,11 +20,7 @@ if(pass=='godlike')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="libs/animate/animate-css.js" type="text/javascript"></script>
 <script src="jquery.fullpage.js"></script>
-<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-<script type="text/javascript">
-  $('.wrapper_2').fullpage();
-</script>
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="css/media.css">
 <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
 
@@ -32,8 +28,10 @@ if(pass=='godlike')
 <body>
 <div class="wrapper_2">
 <div class="head">
-<div style="float: right; padding: 15px;">
-</div>
+<div class="menu_nav">
+<nav style="color: white;float: right; font-size: 18px">
+      <b><div class="span_nav"><a href="#top" class="scrollto" >Обо Мне<a></div><div class="span_nav"><a a href="#top_2" class="scrollto" >Галерея<a></div>
+      <div class="span_nav"><a href="#">Контакты<a></div></b></div>
 
   <div></div>
   <div class="profile"><img class="avatar_profile" src="img/mTiX9Xd1q1U.jpg"><div class="my_name"><b>Петросов Геворг</b></div><div class="rank">Професиональный Художник</div><div style="text-align: center;">Дизайнер</div>
@@ -43,9 +41,11 @@ if(pass=='godlike')
 
 </div>
 
->
+
 </div>
     <section class="beografy" > 
+    <div class="beografy_osnova">
+    <div id="top" class="contentFour" name="top"></div>
     <div class="obomne" style="text-align: center; font-size: 2em"><h1>-ОБО МНЕ-</h1></div>
     <div class="hr_style"><hr></div><div style="display: flex;justify-content: center;">
     <div class="image_article"><img src="img/mTiX9Xd1q1U.jpg" style="width: 250px; height: 250px; border-radius: 50%;" alt=""></div>
@@ -56,51 +56,59 @@ if(pass=='godlike')
 Батик-роспись ткани.
 Масленная Акриловая и Акварельная, живопись-картины на холстах, двп, стенах, футболках и т.д
 А так же создаю красивейшие сувениры и украшения на любой вкус
-Звоните или пишите всегда рад.</div></div><div class="clear"></div><div class="plyuwki"><div class="image_conteiner"><img src="img/mortarboard.png" alt="">Образование</div><div class="image_conteiner"><img src="img/wallet.png" alt="">Низкие Цены!</div><div class="image_conteiner"><img src="img/checked.png" alt="">Довольные Клиенты</div></div></section>
+Звоните или пишите всегда рад.</div></div><div class="clear"></div><div class="plyuwki"><div class="image_conteiner"><img src="img/mortarboard.png" alt="">Образование</div><div class="image_conteiner"><img src="img/wallet.png" alt="">Низкие Цены!</div><div class="image_conteiner"><img src="img/checked.png" alt="">Довольные Клиенты</div></div></div></section>
     
     </section>
     <div class="gallery">
+    <div id="top_2" class="contentFour" name="top"></div>
     <h2 style="text-align: center; color: black"><b>Галерея Моих Работ.</b></h2>
     <ul class="img-list">
-      <li>
-        <a href="images/img-1-lg.jpg"><img class="image_slide" src="images/img-1-sm.jpg"></a>
-      </li>
-      <li>
-         <a href="images/img-2-lg.jpg"><img class="image_slide" src="images/img-2-sm.jpg"></a>
-      </li>
-      <li>
-        <a href="images/img-3-lg.jpg"><img class="image_slide" src="images/img-3-sm.jpg"></a>
-      </li>
-      <li>
-        <a href="images/img-4-lg.jpg"><img class="image_slide" src="images/img-4-sm.jpg"></a>
-      </li>
-      <li>
-        <a href="images/7.jpg"><img class="image_slide" src="images/7.jpg"></a>
-      </li>
-      <li>
-         <a href="images/2.jpg"><img  class="image_slide" src="images/2.jpg"></a>
-      </li>
-      <li>
-        <a href="images/3.jpeg"><img class="image_slide" src="images/3.jpeg"></a>
-      </li>
-      <li>
-        <a href="images/5.jpeg"><img class="image_slide" src="images/5.jpeg"></a>
-      </li>
-            <li>
-        <a href="images/7.jpg"><img class="image_slide" src="images/7.jpg"></a>
-      </li>
-      <li>
-         <a href="images/12.jpeg"><img  class="image_slide" src="images/12.jpeg"></a>
-      </li>
-      <li>
-        <a href="images/9.jpg"><img class="image_slide" src="images/9.jpg"></a>
-      </li>
-      <li>
-        <a href="images/10.jpeg"><img class="image_slide" src="images/10.jpeg"></a>
-      </li>
+      <div>
+        <a class="ssilka" href="images/img-1-lg.jpg"><img class="image_slide" src="images/img-1-sm.jpg"></a>
+      </div>
+      <div>
+         <a class="ssilka" href="images/img-2-lg.jpg"><img class="image_slide" src="images/img-2-sm.jpg"></a>
+      </div>
+      <div>
+        <a class="ssilka" href="images/img-3-lg.jpg"><img class="image_slide" src="images/img-3-sm.jpg"></a>
+      </div>
+      <div>
+        <a class="ssilka" href="images/img-4-lg.jpg"><img class="image_slide" src="images/img-4-sm.jpg"></a>
+      </div>
+      <div>
+        <a class="ssilka" href="images/7.jpg"><img class="image_slide" src="images/7.jpg"></a>
+      </div>
+      <div>
+         <a class="ssilka" href="images/2.jpg"><img  class="image_slide" src="images/2.jpg"></a>
+      </div>
+      <div>
+        <a class="ssilka" href="images/3.jpeg"><img class="image_slide" src="images/3.jpeg"></a>
+      </div>
+      <div>
+        <a class="ssilka" href="images/5.jpeg"><img class="image_slide" src="images/5.jpeg"></a>
+      </div>
+
+
+
+       <div>
+              <a class="ssilka" href="images/7.jpg"><img class="image_slide" src="images/7.jpg"></a>
+      </div>
+      
+      <div class="hide_galery" style="display: none;">
+         <a class="ssilka" href="images/12.jpeg"><img  class="image_slide" src="images/12.jpeg"></a>
+      </div>
+      <div class="hide_galery" style="display: none;">
+        <a class="ssilka" href="images/9.jpg"><img class="image_slide" src="images/9.jpg"></a>
+      </div>
+      <div class="hide_galery" style="display: none;">
+        <a  class="ssilka" href="images/10.jpeg"><img class="image_slide" src="images/10.jpeg"></a>
+      </div>
+  
     </ul><!-- //img-list -->
-    <div class="buton_galery">Показать ещё</div>
-    <br>
+    <div class="buton_galery">Показать ещё</div> <div class="buton_galery_hide">Скрыть</div>
+  
+      <br><br><br>
+
 
 
     
@@ -155,5 +163,26 @@ if(pass=='godlike')
 <div style="background-color: black; width: 100%; color: white;padding: 10">Все Права Защещины. 2017</div>
   
 <script src="js/functions.js"></script>
+<script>
+ $(document).ready(function() {
+  $("a.scrollto").click(function () {
+    elementClick = $(this).attr("href")
+    destination = $(elementClick).offset().top;
+    $("html,body").animate({scrollTop: destination}, 1100);
+    return false;
+  });
+});
+</script>
+<script>
+  $('.buton_galery').click(function(event) {
+      $('.hide_galery').slideDown(3000);
+  });
+
+  $('.buton_galery_hide').click(function() {
+    $('.hide_galery').hide(400)
+  });
+
+
+</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 
-  var $li = $('.img-list').find('> li'),
+  var $li = $('.img-list').find('> div'),
       $links = $li.find('> a'),
       $lightbox = $('.lightbox'),
       $next = $('.next'),

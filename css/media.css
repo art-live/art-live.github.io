@@ -61,6 +61,10 @@
 		height: 800px;
 	}
 
+	.nav_menu{
+		float: left;
+	}
+
 	.text_darov{
 		font-size: 25px;
 	}
